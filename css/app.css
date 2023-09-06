@@ -15,8 +15,16 @@
 	flex-wrap: wrap;
 }
 
+.row > [class^='col'] {
+	padding: 5px;
+}
+
 .col-4 {
 	flex-basis: calc((100% / 12) * 4);
+}
+
+img {
+    max-width: 100%;
 }
 
 .card {
@@ -46,10 +54,6 @@ a {
 
 ul, ol, menu {
     list-style: none;
-}
-
-img {
-    max-width: 100%;
 }
 
 figure > img {
@@ -93,6 +97,3 @@ figure > img {
 	/* flex-basis: calc((100% * 2) / 12); */
 }
 
-.row > [class^='col'] {
-	padding: 20px;
-}
