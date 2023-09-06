@@ -100,6 +100,21 @@ figcaption {
     font-size: 12px;
 }
 
+figure:hover img.image-hover {
+    opacity: 1;
+}
+
+.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+
 
 
 
