@@ -66,19 +66,39 @@ img {
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    bottom: 30px;
+    bottom: 90px;
     left: 0px;
     text-align: center;
     font-size: 12px;
     align-items: center;
 }
 
+figcaption {
+    
+}
 
+.brand-name {
+    font-size: 10px;
+}
 
+.product {
+    font-size: 12px;
+    font-weight: bold;
+}
 
+.price {
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+}
 
-
-
+.last-price {
+    color: black;
+    font-weight: 200;
+    font-style: italic;
+    text-decoration: line-through;
+    font-size: 12px;
+}
 
 
 
